@@ -1,0 +1,42 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-15 20:39:09
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-15 21:26:55
+*/
+body{
+	background: #F1F9C9;
+}
+.box{
+	width: 200px;
+	height: 400px;
+	background: white;
+	border-left: 200px solid #000000 ;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	transition: 5s linear;
+}
+.box1{
+	width: 80px;
+	height: 80px;
+	background: #000;
+	border: 60px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0px;
+	right: 50%;
+}
+.box2{
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	border: 60px solid #000;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0px;
+	right: 50%;
+}
+.box:hover{
+	transform:rotate(360deg);
+}
